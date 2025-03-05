@@ -1,0 +1,26 @@
+{
+  "about.qmd": {
+    "about.html": "1d5ad36a"
+  },
+  "index.qmd": {
+    "index.html": "f7f9cd24"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "25e17fa7"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "6fb73fc4"
+  },
+  "portfolio.qmd": {
+    "portfolio.html": "096e66a0"
+  },
+  "cv.qmd": {
+    "cv.html": "cb9b8252"
+  },
+  "index_old.qmd": {
+    "index_old.html": "78dfc31a"
+  },
+  "posts/pipeline_zebrabox_treatment/index.qmd": {
+    "index.html": "4e80262c"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "28fec9ee287c9510d48d860ddbbddc21",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Analysis of XXX Data\"\nauthor: \"Antoine TOURRET\"\ndate: \"2025-03-05\"\ncategories: [code, analysis, r]\nimage: \"image.jpg\"\n---\n\n\n\nPut your project here and click [below]()\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
