@@ -1,1 +1,1 @@
-![](cv_antoine_tourret_2024_french_version.pdf){width="100%" height="1000px"}
+<iframe src="cv_antoine_tourret_2024_french_version.pdf" height=100% width=100%>
