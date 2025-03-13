@@ -1,0 +1,7 @@
+.quarto-title-block {
+  /* Make the banner taller, for example 350px */
+  min-height: 350px;
+  /* Ensure the background is nicely centered and covers the area */
+  background-position: center;
+  background-size: cover;
+}

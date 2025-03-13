@@ -7,7 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Antoine TOURRET">
-<meta name="dcterms.date" content="2025-03-05">
 
 <title>Pipeline Zebrabox Treatment – Antoine TOURRET</title>
 <style>
@@ -22,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -139,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 5, 2025</p>
+        <p class="date">13/03/2025</p>
       </div>
     </div>
     
@@ -166,11 +184,28 @@ body {
 }
 </style>
 </div>
-<p>Working with the Zebrabox to monitor <em>Daphnia magna</em> behaviour, i began developing a <a href="https://github.com/Antoine-T17/pipeline_zebrabox_treatment" target="_blank">pipeline</a> for automatic high-troughput analysis.</p>
+<p>Working with the ZebraBox, I have been monitoring <em>Daphnia magna</em> behavior and, as a result, developed an automated <a href="https://github.com/Antoine-T17/pipeline_zebrabox_treatment" target="_blank">pipeline</a> for high-throughput analysis.</p>
+<p>Widely recognized as a popular model organism in toxicology, <em>Daphnia magna</em> is favored for its ease of laboratory culturing, large brood size, high sensitivity to pollutants, short generation time, and the diverse range of endpoints it offers in toxicity studies <span class="citation" data-cites="THAKUR-2018 PIKUDA-2023">(<a href="#ref-THAKUR-2018" role="doc-biblioref">Thakur and Kocher 2018</a>; <a href="#ref-PIKUDA-2023" role="doc-biblioref">Pikuda et al. 2023</a>)</span>. This versatility makes it an excellent candidate for studies on compound toxicity and environmental assessments.</p>
+<p>The ZebraBox itself is a powerful tool, capable of performing high-throughput analysis on larvae and embryos of zebrafish (<em>Danio rerio</em>) as well as related species like <em>Daphnia magna</em>. It supports two primary behavioral assessment modes: a tracking mode for detailed locomotion analysis and a quantization mode for measuring overall activity. In tracking mode, the system follows the organism within a user-defined region of interest (ROI), enabling measurements such as traveled distance and duration of movement.</p>
+<p>Moreover, the system’s viewpoint feature facilitates different response modes, including:</p>
+<ul>
+<li>Visual response (light/dark)</li>
+<li>Auditory/sensory response (vibration/rest)</li>
+<li>Place preference response</li>
+</ul>
+<p>This multi-modal approach not only broadens the scope of behavioral studies but also provides researchers with a comprehensive toolkit for assessing the impact of various compounds on model organisms.</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-PIKUDA-2023" class="csl-entry" role="listitem">
+Pikuda O, Dumont ER, Chen Q, et al (2023) Toxicity of microplastics and nanoplastics to daphnia magna: Current status, knowledge gaps and future directions. TrAC Trends in Analytical Chemistry 117208
+</div>
+<div id="ref-THAKUR-2018" class="csl-entry" role="listitem">
+Thakur A, Kocher D (2018) Laboratory studies on developmental stages and life cycle of daphnia magna
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
