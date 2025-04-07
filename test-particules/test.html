@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Particles.js</title>
+  <!-- Inclusion de Particles.js via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+  <!-- Div qui accueillera les particules -->
+  <div id="particles-js" style="position: fixed; width: 100%; height: 100%; z-index: -1;"></div>
+  
+  <!-- Script pour charger la configuration de Particles.js -->
+  <script>
+    console.log("Chargement de Particles.js…");
+    particlesJS.load('particles-js', 'assets/particules.json', function() {
+      console.log('Configuration Particles.js chargée.');
+    });
+  </script>
+  
+  <!-- Contenu test visible par-dessus les particules -->
+  <div style="position: relative; z-index: 1; padding: 2rem;">
+    <h1>Test Particles.js</h1>
+    <p>Si vous voyez des particules en arrière-plan, ça fonctionne !</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* styles_cv_antoine_tourret_2025.css */
+
+/* Global */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 2rem;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Titre principal centré */
+h1 {
+  color: #343a40;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #adb5bd;
+  padding-bottom: 0.3em;
+  text-align: center;
+}
+
+/* Titres secondaires */
+h2 {
+  color: #495057;
+  font-size: 1.5em;
+  margin-top: 1.5em;
+}
+
+/* Flex container pour les coordonnées */
+#coordonnees-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+/* Bloc photo */
+.photo {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+}
+
+.photo img {
+  width: 150px; /* Ajustez la taille de la photo selon vos besoins */
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Bloc informations */
+.infos {
+  flex: 1;
+  text-align: right;
+}
+
+/* Listes */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+}
+
+/* Liens */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Articles (ex: formation) */
+article {
+  margin-bottom: 1.5rem;
+}

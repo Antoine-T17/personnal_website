@@ -1,0 +1,128 @@
+/*-- scss:defaults --*/
+/* Variables SCSS pour le thème sombre */
+$body-bg: #000000;
+$body-color: #e0e0e0;
+$link-color: #ff0004; /* Cyan clair du logo LEESU */
+$code-bg-color: #333333;
+$code-text-color: #FFFFFF;
+$active-link-color: #ff0004; /* Variation de cyan pour les liens actifs */
+$toc-color: #e0e0e0;
+$toc-font-size: 16px;
+$toc-active-border: #ff0004;
+$toc-inactive-border: transparent;
+
+/* Variables pour les blocs de code */
+$code-block-border-left: #ff0004; /* Couleur de la bordure gauche */
+$code-block-border-left-style: solid;
+$code-block-border-left-size: 3px;
+$code-block-padding-left: 10px;
+
+/*-- scss:rules --*/
+/* Corps du document */
+body.quarto-dark {
+  background-color: $body-bg;
+  color: $body-color;
+
+  /* Couleur des liens */
+  a {
+    color: $link-color !important;
+  }
+
+  /* Liens actifs */
+  a:active, a:focus, a:hover {
+    color: $active-link-color !important;
+  }
+
+  /* Styliser la checkbox en cyan pour le thème sombre */
+  input[type="checkbox"] {
+    accent-color: #ff0004 !important;
+  }
+
+  /* Styles pour le TOC */
+  .toc-left .nav-link {
+    color: $toc-color !important;
+
+    &:hover, &:focus {
+      color: $active-link-color !important;
+    }
+    
+    &.active {
+      color: $active-link-color !important;
+      border-left: 0.01px solid $active-link-color !important;
+    }
+  }
+
+  /* Styles pour "Other Links" */
+  .quarto-other-links ul li a {
+    color: #e0e0e0 !important;
+    text-decoration: none;
+
+    &:hover, &:focus, &:active {
+      color: $active-link-color !important;
+    }
+
+    &.active {
+      color: $active-link-color !important;
+      border-left: 2px solid $active-link-color !important;
+    }
+  }
+
+  /* Appliquer les variables SCSS pour les blocs de code */
+  pre.sourceCode {
+    border-left: $code-block-border-left-size $code-block-border-left-style $code-block-border-left !important;
+    padding-left: $code-block-padding-left !important;
+    background: $code-bg-color !important;
+    color: $code-text-color !important; /* Texte en gris, maintenant aligné avec le thème clair */
+  }
+
+  /* Couleurs pour les boutons "Show the code" en mode sombre */
+  details.code-fold summary {
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+  }
+
+  /* Couleur du bouton "Copy to Clipboard" en mode sombre */
+  .sourceCode .code-copy-button {
+    color: #FFFFFF !important;
+  }
+
+  /* Bordure des chunks de code dans les callouts */
+  .callout {
+    border-left-width: 3px;
+
+    /* Info callout */
+    &.callout-note pre.sourceCode {
+      border-left-color: #0d6efd !important;
+    }
+
+    /* Warning callout */
+    &.callout-warning pre.sourceCode {
+      border-left-color: #ffc107 !important;
+    }
+
+    /* Danger callout */
+    &.callout-important pre.sourceCode {
+      border-left-color: #dc3545 !important;
+    }
+
+    /* Success callout */
+    &.callout-tip pre.sourceCode {
+      border-left-color: #198754 !important;
+    }
+    
+    /* Couleur des titres dans les callouts */
+    .callout-header .callout-title-container {
+      color: #555555 !important;
+    }
+
+    /* Couleur des icônes dans les callouts */
+    .callout-header .callout-icon-container .callout-icon {
+      color: #555555 !important;
+    }
+  }
+  
+  /* H4 ajustée */
+  h4 {
+    font-size: 1em;
+  }
+}

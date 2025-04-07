@@ -1,0 +1,10 @@
+title: "Particles Extension for Quarto"
+author: "Antoine TOURRET"
+version: "1.0.0"
+quarto-required: ">=1.4.0"
+contributes:
+  format:
+    html:
+      # Cette option permet d'inclure automatiquement le fichier particles-header.html
+      include-in-header:
+        - assets/particles-header.html

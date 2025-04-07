@@ -23,5 +23,9 @@
   },
   "posts/pipeline_zebrabox_treatment/index.qmd": {
     "index.html": "4e80262c"
+  },
+  "docs/docs/curriculum_vitae_antoine_tourret_2025.qmd": {
+    "curriculum_vitae_antoine_tourret_2025.html": "7334e94e",
+    "curriculum_vitae_antoine_tourret_2025.tex": "6ecbee72"
   }
 }

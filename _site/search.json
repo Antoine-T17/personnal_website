@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "posts/pipeline_zebrabox_treatment/index.html",
+    "href": "posts/pipeline_zebrabox_treatment/index.html",
+    "title": "Pipeline Zebrabox Treatment",
+    "section": "",
+    "text": "Working with the ZebraBox, I have been monitoring Daphnia magna behavior and, as a result, developed an automated pipeline for high-throughput analysis.\nWidely recognized as a popular model organism in toxicology, Daphnia magna is favored for its ease of laboratory culturing, large brood size, high sensitivity to pollutants, short generation time, and the diverse range of endpoints it offers in toxicity studies (Thakur and Kocher 2018; Pikuda et al. 2023). This versatility makes it an excellent candidate for studies on compound toxicity and environmental assessments.\nThe ZebraBox itself is a powerful tool, capable of performing high-throughput analysis on larvae and embryos of zebrafish (Danio rerio) as well as related species like Daphnia magna. It supports two primary behavioral assessment modes: a tracking mode for detailed locomotion analysis and a quantization mode for measuring overall activity. In tracking mode, the system follows the organism within a user-defined region of interest (ROI), enabling measurements such as traveled distance and duration of movement.\nMoreover, the system’s viewpoint feature facilitates different response modes, including:\n\nVisual response (light/dark)\nAuditory/sensory response (vibration/rest)\nPlace preference response\n\nThis multi-modal approach not only broadens the scope of behavioral studies but also provides researchers with a comprehensive toolkit for assessing the impact of various compounds on model organisms.\n\n\n\n\nReferences\n\nPikuda O, Dumont ER, Chen Q, et al (2023) Toxicity of microplastics and nanoplastics to daphnia magna: Current status, knowledge gaps and future directions. TrAC Trends in Analytical Chemistry 117208\n\n\nThakur A, Kocher D (2018) Laboratory studies on developmental stages and life cycle of daphnia magna"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Test Particles",
+    "section": "",
+    "text": "Bienvenue\nCeci est un test."
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "My portfolio",
+    "section": "",
+    "text": "Pipeline Zebrabox Treatment\n\n\n\n\n\n\npipeline\n\n\ncode\n\n\nanalysis\n\n\nRstudio\n\n\n\n\n\n\n\n\n\nMar 13, 2025\n\n\nAntoine TOURRET\n\n\n\n\n\n\nNo matching items"
+  }
+]
